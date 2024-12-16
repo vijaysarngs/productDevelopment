@@ -1,0 +1,45 @@
+name: flutter_application_5
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.12
+  carousel_slider: ^4.2.1
+  http: ^1.1.0
+  timeago: ^3.4.0
+  html: ^0.15.0
+  share_plus: ^7.0.0
+  cached_network_image: ^3.2.3
+  # webview_flutter: ^3.0.4
+  fl_chart: ^0.69.0
+  syncfusion_flutter_gauges: ^20.4.38
+  fluttertoast: ^8.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/protest.jpg
+    - assets/flags.jpg
+    - assets/capitol.jpg
+    - assets/fashion.jpg
+    - assets/business.jpg
+    - assets/politics.jpg
+    - assets/sports.jpg
+    - assets/google_icon.jpg
+    - assets/apple_icon.jpg
+
